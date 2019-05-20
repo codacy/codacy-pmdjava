@@ -15,6 +15,13 @@ Check the **Docs** section for more information.
 sbt 'set version in Docker := "dev"' 'set name := "pmd"' docker:publishLocal
 ```
 
+##### Docker Image Versioning
+
+ Repository Branch | Docker Image
+--- | ---
+master | codacy-pmd
+pmd-legacy | codacy-pmdjava
+
 #### Run the docker
 
 ```
